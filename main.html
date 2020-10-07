@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="text-align:center">
+    <h2>Layout Example</h2>
+
+</div>
+<div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">µMist</a>
+    <a href="#">µLot</a>
+    <a href="#">Contact</a>
+</div>
+
+<button class="openbtn" onclick="openNav()">☰</button>
+
+<!-- Left column -->
+<div class="container">
+    <div class="row">
+        <div class="column-66">
+            <h1 class="xlarge-font"><b>Header Left</b></h1>
+            <h1 class="large-font" style="color:MediumSeaGreen;"><b>Heading 2</b></h1>
+            <p><span style="font-size:36px">Bla bla bla</span> Example text. Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.</p>
+            <button class="button" style="background-color:royalblue">More</button>
+        </div>
+        <div class="column-33">
+            <img src="leaf.png" width="294" height="441">
+        </div>
+    </div>
+</div>
+
+<!-- Right Column -->
+<div class="container" style="background-color:#f1f1f1">
+    <div class="row">
+        <div class="column-33">
+            <img src="bandw.png" alt="App" width="751" height="501">
+        </div>
+        <div class="column-66">
+            <h1 class="xlarge-font"><b>Header Right</b></h1>
+            <h1 class="large-font" style="color:red;"><b>Header 2</b></h1>
+            <p><span style="font-size:24px">More text..</span> Text text text text. Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.Text text text text.</p>
+            <button class="button" style="background-color:darkgreen">Read More</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="column">
+                <img src="spikes.png" alt="Avatar woman">
+                <h2>This thing</h2>
+                <p>Some text.</p>
+        </div>
+
+        <div class="column">
+                <img src="leaf.png" alt="Avatar man">
+                <h2>This other thing</h2>
+                <p>Some text here too.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+
+
+
+    </div>
+</div>
+
+
+<script>
+    function openNav() {
+        document.getElementById("sidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("sidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+
+</body>
+</html>
