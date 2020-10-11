@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biomimetics</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div style="text-align:center">
+    <div class="navbar">
+        <a href="main.html">Home</a>
+
+        <a href=""class = active>Biomimetics</a>
+        <a href="micromist.html">µMist</a>
+        <a href="microlot.html">µLot</a>
+
+    </div>
+</div>
+<div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="biomimetics.html">About Biomimetics</a>
+    <a href="mission.html">Our Mission</a>
+    <a href="micromist.html">µMist</a>
+    <a href="microlot.html">µLot</a>
+    <a href="team.html">Meet the Team</a>
+    <a href="news.html">News</a>
+</div>
+
+<button class="openbtn" onclick="openNav()">☰</button>
+
+<!-- Left column -->
+<div class="container">
+    <div class="row">
+        <div class="column-33">
+            <h1 class="xlarge-font"><b>What is Biomimetics?</b></h1>
+            <h1 class="large-font" style="color:SeaGreen;"><b>Designs inspired by nature</b></h1>
+
+        </div>
+        <div class="column-66">
+            <div class="container2">
+                <img src="assets\beetle.png" alt="hey beatle" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Insects = Spray Technology</h2>
+                        <p>µMist®</p>
+                        <button class="button" style="background-color:yellow; color:dimgrey">More about µMist®</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="column-33">
+            <div class="container2">
+                <img src="assets\dolphin.png" alt="dolphins" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Shark Skin = Frictionless Surfaces</h2>
+                        <p>Marine Vessels, Aircrafts, Swimwear</p>
+                    </div>
+                </div>
+            </div>
+             <div class="container2">
+                <img src="assets\plant.png" alt="plants" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Burrs from Plants = Adhesives</h2>
+                        <p>Velcro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column-33">
+            <div class="container2">
+                <img src="assets\spiderweb.png" alt="spider web" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Spiders Web = Medical Sutures</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <img src="assets\gecko.png" alt="gecko" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Gecko Skin = Gripper Technology</h2>
+                        <p>Sportswear, tyres</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column-33">
+            <div class="container2">
+                <img src="assets\eye.png" alt="eye" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Biomimetic Hydrogels</h2>
+                        <p>Arteficital Cornea and Contact Lenses</p>
+                    </div>
+                </div>
+            </div>
+        <div class="container2">
+                <img src="assets\bird.png" alt="bird" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Aerodynamic and Streamlined Design</h2>
+                        <p>Transport and Aeronautics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<script>
+    function openNav() {
+        document.getElementById("sidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("sidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+
+</body>
+</html>
