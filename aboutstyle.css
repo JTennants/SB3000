@@ -59,7 +59,7 @@
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: lightgrey;
+
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -78,7 +78,6 @@
 .container {
     padding: 10px 40px;
     position: relative;
-    background-color: inherit;
     width: 50%;
 }
 
@@ -117,7 +116,8 @@
     right: 30px;
     border: medium solid grey;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent grey;
+
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -131,7 +131,7 @@
     left: 30px;
     border: medium solid grey;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent  grey transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -145,6 +145,7 @@
     background-color: white;
     position: relative;
     border-radius: 6px;
+  background-color: grey;
 }
 
 
