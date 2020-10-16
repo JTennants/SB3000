@@ -86,6 +86,12 @@ body {
     padding: 20px;
 }
 
+p{
+font-size:1vw;
+}
+
+
+
 @media screen and (max-width: 650px) {
     .column {
         width: 100%;
@@ -113,6 +119,10 @@ transition: .5s ease;
     img {
         margin: auto;
     }
+
+p{
+font-size:2vw;
+}
 }
 
 
@@ -165,7 +175,7 @@ transition: .5s ease;
 
 .container2 {
     position: relative;
-    width: 751px;
+    width:100%;
 }
 
 .image {
@@ -221,4 +231,6 @@ transition: .5s ease;
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+
+
 }
