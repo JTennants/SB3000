@@ -204,6 +204,14 @@ transition: .5s ease;
     text-align: center;
 }
 
+#link{
+	color: black;
+}
+
+#link:hover{
+	color:SeaGreen;
+}
+
 #main {
     transition: margin-left .5s;
     padding: 16px;
