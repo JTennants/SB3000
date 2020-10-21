@@ -1,12 +1,13 @@
 
 .row{
     padding: 8px;
+padding-left: 10px;
     overflow: visible;
 }
 .column {
-    float: left;
+    float: centre;
     overflow: visible;
-    width: 33.333%;
+    width: 20%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
@@ -19,12 +20,15 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    padding: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
 }
 
 .tainer {
-    padding: 0 16px;
+ 
+text-align: center;
 }
 
 .tainer::after, .row::after {
@@ -35,6 +39,8 @@
 
 .title {
     color: grey;
+font-size: 70%;
+overflow: auto;
 }
 
 .button {
