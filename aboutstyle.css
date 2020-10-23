@@ -40,7 +40,7 @@ text-align: center;
 .title {
     color: grey;
 font-size: 70%;
-overflow: auto;
+overflow: visible;
 }
 
 .button {
